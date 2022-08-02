@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.SearchBarAppContainer{
+    padding: 5px 0;
+}
+
+.mainVideoAppContainer{
+    width: 60%;
+}
+
+.mainANdsideAppContainer{
+    width: 90%;
+    margin: auto;
+    display:flex;
+    justify-content: space-between;
+}
+
+.videolist_AppContainer{
+    width: 32%;
+    margin: auto;
+}
+@media screen and (max-width:950px) {
+    .mainANdsideAppContainer{
+        flex-direction: column;
+        width: 100%;
+    }
+    .mainVideoAppContainer{
+        width: 100%;
+    }
+    .videolist_AppContainer{
+        width: 100%;
+    }  
+
+}
+
+@media screen and (max-width:600px) {
+    .SearchBarAppContainer{
+        padding: 0;
+    }
+}
+

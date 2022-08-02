@@ -1,0 +1,89 @@
+
+
+body{
+    background-color: #F9F9F9;
+}
+
+.trending{
+    display:flex;
+    align-items: center;
+    margin: 5px 0;
+    overflow: hidden;
+}
+
+.trendingItems,.trendingItems1{
+    border: 1px solid lightslategrey;
+    padding: 2px 10px;
+    border-radius: 15px;
+    margin: 0px 3px;
+    background-color:#ECECEC;
+   ;
+}
+
+.trendingItems:hover{
+    background-color:#ccc9c9;
+
+}
+
+.trendingItems1{
+    background-color: black;
+    color: white;
+}
+
+.advertisment{
+    height: 150px;
+    margin: 10px 0 15px 0;
+    border-bottom: 2px solid rgb(197, 199, 201);
+}
+
+.advertisment img{
+    height: 60%;
+    width: 100%;
+}
+
+.advertBtm{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5px;
+}
+
+.advertBtm img{
+    height: 50px;
+    width: 50px;
+}
+
+.spanAd{
+    font-size: 14px;
+    padding: 2px;
+    background-color: #FBC02D;
+    color: white;
+    margin:0 2px;
+    border-radius: 5px;
+}
+
+.aDwebsite{
+    font-size: 12px;
+}
+
+.bookNow{
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    padding: 4px 5px;
+    background-color: #065FD4;
+    color: white;
+    box-shadow: 0px 0px 5px lightslategray;
+}
+
+@media screen and (max-width:950px) {
+    .listContainer{
+        width: 100%;
+    }
+    .trending{
+        flex-wrap: wrap;
+        margin: 5px;
+    }
+    .trending span{
+        margin: 3px;
+    }
+}
